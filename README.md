@@ -1,40 +1,13 @@
-# Welcome to Evennia!
+# Welcome to Homeworld Gaius!
 
-This is your game directory, set up to let you start with
-your new game right away. An overview of this directory is found here:
-https://github.com/evennia/evennia/wiki/Directory-Overview#the-game-directory
+Homeworld Gaius is set upon the world of Gaius. Gaius circles a star slightly smaller than Sol (.91SM, .754SL, R= .825 → 1.19 AU), but at a slightly closer distance(.95a, e = .06). The result is a temperate climate similar to Earth’s. Gaius has three moons, each roughly 50% of the size and 20% of the mass of Luna. Gaius has an axial tilt of 27.5 degrees in relation to the sun, producing similar weather to Earth’s, but with a larger tropical region and larger storms. The year is 344.125 days long. A day is 25 hours long. For convenience, 1 Gaius second = .9 earth seconds, 1 Gaius minute = 100 Gaius seconds, 1 Gaius hour = 50 Gaius minutes, 20 Gaius hours = 1 Gaius day (or about 90,000 earth seconds).
 
-You can delete this readme file when you've read it and you can
-re-arrange things in this game-directory to suit your own sense of
-organisation (the only exception is the directory structure of the
-`server/` directory, which Evennia expects). If you change the structure
-you must however also edit/add to your settings file to tell Evennia
-where to look for things.
+HG’s populace are humans that arrived from Earth on a colony ship roughly 1000 years ago. The colony ship crash landed, resulting in great loss of life and the loss of almost all of the technology brought to Gaius. A few relics remain, but their functionality is mostly misunderstood. One such relic is a semi-sentient energy weapon of great power kept by the royal family of Gaius’s largest city-state of New Plymouth. The general technology level is roughly equivalent to medieval Europe with magic.
 
-Your game's main configuration file is found in
-`server/conf/settings.py` (but you don't need to change it to get
-started). If you just created this directory (which means you'll already
-have a `virtualenv` running if you followed the default instructions),
-`cd` to this directory then initialize a new database using
+HG’s populace is infected with a symbiotic organism that causes most humans to change in strange ways; their delusions/convictions often become real. Infection happens for most individuals at the onset of puberty, and becomes progressively more pronounced as they age up until their death. The powers are expressed physically if the individual believes enough in their power.
 
-    evennia migrate
+Homeworld Gaius is build upon Evennia's codebase.
 
-To start the server, stand in this directory and run
-
-    evennia start
-
-This will start the server, logging output to the console. Make
-sure to create a superuser when asked. By default you can now connect
-to your new game using a MUD client on `localhost`, port `4000`.  You can
-also log into the web client by pointing a browser to
-`http://localhost:4001`.
-
-# Getting started
-
-From here on you might want to look at one of the beginner tutorials:
-http://github.com/evennia/evennia/wiki/Tutorials.
-
-Evennia's documentation is here:
-https://github.com/evennia/evennia/wiki.
+Evennia's documentation is here: https://github.com/evennia/evennia/wiki.
 
 Enjoy!
